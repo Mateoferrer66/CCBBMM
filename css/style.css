@@ -848,7 +848,8 @@ ul.nav li.active a:before {
 }
 /*Testimonials-stylesheets-include-here*/
 #testimonials {
-	background-image:url(../images/banners/final4.png);
+	background-image:url(../images/banners/white.png);
+
 	height:470px;
 	text-align:center;
 }
@@ -862,7 +863,7 @@ background:#11324D;
 }
 .quote i.fa {
 	font-size:35px;
-	color:#FFFFFF;
+	color:#3557a3;
 }
 #owl-testi {
 	position:relative;
