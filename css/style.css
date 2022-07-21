@@ -172,7 +172,7 @@ span {
 }
 .line {
 	border:1px solid #11324D;
-	width:15%;
+	width:100%;
 }
 a:hover, a:focus {
 	text-decoration:none;
@@ -269,13 +269,36 @@ ul.nav li.active a:before {
 	opacity:1;
 }
 .on {
-	background:#11324dcf;
+	background:#11324d;
 	transition:all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
-}
+}	
 /*Slider-stylesheets-include-here*/
+
+.myButton {
+	background-color:#4741f0;
+	border-radius:33px;
+	border:2px solid #113ff5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 32px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#2d98e0;
+	color: whitesmoke;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 	#home-carousel .item {
 	background-position: center top;
@@ -422,7 +445,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-	background:#11324D;
+	background:#3d4246;
 	margin-top:10px;
 	padding: 1% 0%;
 }
